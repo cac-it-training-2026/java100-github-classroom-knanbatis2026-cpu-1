@@ -20,4 +20,5 @@ public class Patisserie {
 				"【ポエール・ネルメ】\r\n" + //
 				" ただいまより開店です！！");
 	}
+
 }
