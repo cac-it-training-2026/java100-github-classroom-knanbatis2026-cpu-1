@@ -25,7 +25,9 @@
 
 package jp.co.sss.java100_questions_cac.lesson02.challenge07;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Detective {
 
@@ -37,6 +39,15 @@ public class Detective {
 		System.out.print("ここに入力＞");
 
 		//ここに入力処理を入れる
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+		System.out.print("ここに入力>");
+		String str = reader.readLine();
+		int height = Integer.parseInt(str);
+
+		if (height > 185) {
+			System.out.println("");
+		}
 
 		//ここにif～else文を入れる
 
